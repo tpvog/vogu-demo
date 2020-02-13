@@ -1,0 +1,7 @@
+.mainnav{
+    min-height: 100px;
+}
+
+.navbar-item img{
+    max-height: 50px;
+}

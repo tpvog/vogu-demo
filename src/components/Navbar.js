@@ -1,7 +1,8 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import github from '../img/github-icon.svg'
-import logo from '../img/logo.svg'
+// import github from '../img/github-icon.svg'
+import logo from '../img/header-logo.svg'
+import "./comp-styles.css";
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -35,14 +36,14 @@ const Navbar = class extends React.Component {
   render() {
     return (
       <nav
-        className="navbar is-transparent"
+        className="navbar is-transparent mainnav"
         role="navigation"
         aria-label="main-navigation"
       >
         <div className="container">
           <div className="navbar-brand">
             <Link to="/" className="navbar-item" title="Logo">
-              <img src={logo} alt="Kaldi" style={{ width: '88px' }} />
+              <img src={logo} alt="Kaldi" style={{ width: '150px' }} />
             </Link>
             {/* Hamburger menu */}
             <div
@@ -83,9 +84,9 @@ const Navbar = class extends React.Component {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <span className="icon">
-                  <img src={github} alt="Github" />
-                </span>
+                <button className="applybttn">
+                  Apply
+                </button>
               </a>
             </div>
           </div>
