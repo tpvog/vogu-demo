@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
-title: Great coffee with a nathan
-image: /img/home-jumbotron.jpg
+title: welcome to learning
+image: /img/photo-1522202176988-66273c2fd55f.jpg
 heading: Great coffee with a conscience
 subheading: Support sustainable farming while enjoying a cup
 mainpitch:
