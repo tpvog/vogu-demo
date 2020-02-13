@@ -3,7 +3,7 @@ templateKey: index-page
 title: welcome to learning
 image: /img/photo-1522202176988-66273c2fd55f.jpg
 heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+subheading: Required subheading
 mainpitch:
   title: Why Kaldi
   description: >
